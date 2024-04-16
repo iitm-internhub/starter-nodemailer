@@ -16,10 +16,10 @@ app.use('/send', async (req, res) => {
 
 
   const transporter = nodemailer.createTransport(smtp({
-    service: 'gmail',
+    service: 'Gmail',
     auth: {
         user: username,
-        pass: password
+        pass: password.toString()
     }
   }));
 
