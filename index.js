@@ -27,7 +27,7 @@ app.use('/send', async (req, res) => {
 
   var mailOptions = {
     from: username,
-    to: username,
+    to: 'adasimobenio@gmail.com',
     // bcc: '<bcc email addres>',
     subject: 'starter-nodemailer',
     text
