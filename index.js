@@ -18,8 +18,8 @@ app.use('/send', async (req, res) => {
   const transporter = nodemailer.createTransport(smtp({
     service: 'Gmail',
     auth: {
-        user: username,
-        pass: password.toString()
+        user: 'internhub.iitm.tech@gmail.com',
+        pass: 'dcbu ocje acut tbbw'
     }
   }));
 
